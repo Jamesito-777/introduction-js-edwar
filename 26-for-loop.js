@@ -35,8 +35,15 @@ const shoppingCart = [
 
 // ============================================================================================
 
-// Ahora ForEach con arrow function
-shoppingCart.forEach((product) => console.log(product));
-shoppingCart.forEach((product) => console.log(product.price));
-shoppingCart.forEach((product) => console.log(product.productName));
-shoppingCart.forEach((product) => console.log(product.color));
+// // Ahora ForEach con arrow function
+// shoppingCart.forEach((product) => console.log(product));
+// shoppingCart.forEach((product) => console.log(product.price));
+// shoppingCart.forEach((product) => console.log(product.productName));
+// shoppingCart.forEach((product) => console.log(product.color));
+
+// COMO RECORRER UN ARREGLO
+// shoppingCart.forEach((product) => console.log(product));
+
+// ==============================================================
+const array = shoppingCart.map(product =>`El nombre del producto es: ${product.productName} - ${product.price}`)
+console.log (array);
