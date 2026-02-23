@@ -1,5 +1,5 @@
 // Prototype
-// El prototipo es como un molde o modelo base 
+// El prototipo es como un molde o modelo base, tambien es una forma de compartir funciones.
 // Para este ejemplo, voy a guardar las funciones comunes en un lugar llamado prototype, así los objetos del mismo tipo pueden heredarlas.
 
 function Car(brand, model, color){
